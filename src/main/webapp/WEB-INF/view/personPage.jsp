@@ -10,7 +10,7 @@
 <body>
 <h1>Persons</h1>
 
-<c:url var="addUrl" value="/rest/add" />
+<c:url var="addUrl" value="/person/add" />
 <table style="border: 1px solid; width: 500px; text-align:center">
 	<thead style="background:#fcf">
 		<tr>
