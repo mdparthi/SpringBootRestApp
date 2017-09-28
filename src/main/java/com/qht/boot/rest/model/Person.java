@@ -2,10 +2,14 @@ package com.qht.boot.rest.model;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
+import io.swagger.annotations.ApiModelProperty;
+
 @XmlRootElement(name="person")
 public class Person {
 
+	@ApiModelProperty(notes="id will be unique")
 	private Long id;
+	@ApiModelProperty(notes="first should be 6 chars max")
 	private String firstName;
 	private String lastName;
 	private Double money;
